@@ -26,6 +26,7 @@ namespace WebApiDemo.Controllers
         [Route("v1/get-temp-ads")]
         public ActionResult gettempads()
         {
+
             return RedirectToActionPermanent("ad-information");
         }
 
