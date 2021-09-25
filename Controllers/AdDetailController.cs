@@ -29,7 +29,6 @@ namespace WebApiDemo.Controllers
             return RedirectToActionPermanent("ad-information");
         }
 
-
         [Route("v2/ad-information")]
         [ActionName("ad-information")]
         public ActionResult<AdInfo> getAds(Int32 adid)
